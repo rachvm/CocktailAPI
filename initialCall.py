@@ -8,3 +8,4 @@ cocktail = response.json()
 
 # Prints the name of the cocktail
 print(cocktail['drinks'][0]['strDrink'])
+print(cocktail['drinks'][0]['strInstructions'])
